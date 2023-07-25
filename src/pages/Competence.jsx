@@ -13,6 +13,7 @@ import js from "../assets/28753ddf79d70042ba86564947e13bf5.png"
 import postgres from "../assets/Postgresql_elephant.png";
 import reactimage from "../assets/React-icon.png";
 import activeMQ from "../assets/activemq_logo_icon.png";
+import redis from "../assets/redis.png"
 
 const Competence = () => {
 
@@ -55,9 +56,9 @@ const Competence = () => {
         },
         {
             id:7,
-            src:html,
-            title:'HTML',
-            style:'shadow-orange-500'
+            src:redis,
+            title:'REDIS',
+            style:'shadow-red-500'
         },
         {
             id:8,
